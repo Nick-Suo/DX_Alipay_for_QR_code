@@ -1,0 +1,24 @@
+    # 说明
+    # # 环境 anaconda的 python 3.7
+    # #     主要库  opencv-python==4.2 PyQt5==5.14.1 qrcode pymysql python-alipay-sdk pycryptodome
+    # #     其他的库
+                具体看 pay.py self_Alipay.py 中导入的库，比较多
+
+            安装 pip install 库名
+                pip install opencv-python==4.2.0
+                pip install pyqt5==5.14.1
+                pip install qrcode
+                pip install pymysql
+                pip install python-alipay-sdk
+                pip install pycryptodome
+
+                pip install time
+                pip install copy
+                pip install urllib3
+                ...
+
+
+
+
+
+
