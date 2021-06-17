@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import MultipleLocator
 import numpy as np
 
-db = pymysql.connect('175.24.87.13', 'shuike', '123456', 'shuikedatabase', charset='utf8')
+db = pymysql.connect('ip', 'root', 'pwd', 'databases', charset='utf8')
 cur = db.cursor()
 
 
@@ -261,7 +261,7 @@ def one_day_money(data):
 if __name__ == '__main__':
 
     print('-----链接数据库------')
-    db = pymysql.connect('175.24.87.13', 'shuike', '123456', 'shuikedatabase', charset='utf8')
+    db = pymysql.connect('ip', 'root', 'pwd', 'databases', charset='utf8')
     cur = db.cursor()
 
     # p = caipinfenxi(dt, db)
