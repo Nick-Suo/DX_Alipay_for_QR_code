@@ -307,7 +307,7 @@ if __name__ == '__main__':
 
     # -----------------------------先链接数据库 全局化
     print('-----链接数据库------')
-    db = pymysql.connect('175.24.87.13', 'shuike', '123456', 'shuikedatabase', charset='utf8')
+    db = pymysql.connect('ip', 'root', 'pwd', 'databases', charset='utf8')
     cur = db.cursor()
 
     # -----------------------------展示ui
